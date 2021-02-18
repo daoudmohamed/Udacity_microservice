@@ -10,6 +10,7 @@ dockerpath=daoudm/api
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login
 docker tag api $dockerpath
 
 # Step 3:
